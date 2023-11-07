@@ -1,7 +1,7 @@
 const StudentList = ({ students }) => {
   return (
     <div>
-      <h2>List of Students</h2>
+      <h2 className="text-danger">List of Students</h2>
       <ul>
         {students.map((student, index) => (
           <li key={index}>

@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "@/components/Navbar";
 import { Provider } from "@/app/context/context-provider";
 import Footer from "@/components/Footer";
